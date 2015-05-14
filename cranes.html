@@ -34,19 +34,44 @@
   #pos {
     position: absolute;
     top: 25%;
-  }
-  #pos_slider {
+}
+#pos_image {
     position: absolute;
+    top:35%;
     /*top: 170px;
     left:9.5%;*/
-    top:35%;
-    left:9.5%;
-  }
+    width: 400px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left:61%;
+    
+    
+}
 
-  #pos_header {
-    top:100%;
-    text-align: center;
-  }
+#pos_image2 {
+    position: absolute;
+    top:45%;
+    /*top: 170px;
+    left:9.5%;*/
+    width: 400px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left:61%;
+    
+    
+}
+
+#pos_container {
+    position: absolute;
+    top: 35.5%;
+    width: 650px;
+    min-height: 375px;
+    left: 12%
+}
   </style>
 </head>
 <!-- NAVBAR
@@ -72,7 +97,7 @@
             <div id="navbar" class="nav navbar-nav navbar-right">
               <ul class="nav navbar-nav">
                 <li><a href="contact.html">اتصل بنا</a></li>
-                <li class="dropdown">
+                <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">خدماتنا <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="moving.html" class = "pull-right">نقل الاثاث</a></li>
@@ -81,7 +106,7 @@
                     <li><a href="cranes.html" class = "pull-right">اوناش رفع الاثاث</a></li>
                   </ul>
                 </li>
-                <li class="active"><a href="index.html">الرئيسية</a></li>
+                <li><a href="index.html">الرئيسية</a></li>
               </ul>
             </div>
           </div>
@@ -90,141 +115,34 @@
       </div>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-
-    <div class = "container" id="pos_slider" style = "width:81%;" > 
-      <br>
-      <div id="myCarousel" class="carousel slide center" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner maxCarouselHeight center" role="listbox">
-          <div class="item active center">
-            <img src="images/pics/1.jpg" alt="شركة الاحسان">
-            <div class="carousel-caption">
-              <!--<h3>خدماتنا</h3>-->
-              <!--<p>تغليف الاثاث</p>-->
-            </div>
-          </div>
-
-          <div class="item center">
-            <img src="images/pics/2.jpg" alt="شركة الاحسان">
-            <div class="carousel-caption">
-              <!--<h3>خدماتنا</h3>-->
-              <!--<p>نقل الاثاث</p>-->
-            </div>
-          </div>
-
-          <div class="item center">
-            <img src="images/pics/3.jpg" alt="شركة الاحسان">
-            <div class="carousel-caption">
-              <!--<h3>خدماتنا</h3>-->
-              <!--<p>فك و تركيب الاثاث</p>-->
-            </div>
-          </div>
-
-          <div class="item center">
-            <img src="images/pics/4.jpg" alt="شركة الاحسان">
-            <div class="carousel-caption">
-              <!--<h3>خدماتنا</h3>-->
-              <!--<p>اوناش رفع الاثاث</p>-->
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    <div class="container center-block" id = "pos_image" style = "background-color:white;text-align: center;">
+      <img src="images/pics/cranes.png" class="img-responsive center-block" id="bg" alt="شركة الاحسان"> 
     </div>
-  </div>
+
+    <div class="container center-block" id = "pos_image2" style = "background-color:white;text-align: center;">
+      <img src="images/pics/cranes_1.jpg" class="img-responsive center-block" id="bg" alt="شركة الاحسان"> 
+    </div>
+
+    <div class = "container" id = "pos_container" style="background-color:white;  outline: 5px solid rgb(54, 146, 213);">
+      <h2 class="text-right"><b><u>اوناش رفع الاثاث</u></b></h2>
+      <br>
+      <p class="text-right" style="font-size:20px;">من اهم الخدمات التى تتميز بها شركة الاحسان هى عملية تحميل المنقولات من المنزل الى سيارة النقل و العكس و تتم هذه الخدمة على ايدى عمالة مدربة تجيد التعامل مع تحميل المنقولات باقصى درجات الحرص للحفاظ على سلامتها. فى بعض الاحيان يتم استخدام الطرق اليدوية لتنزيل و تطليع المنقولات و فى احيان اخرى قد يتطلب الامر استخدام طرق ميكانيكية مثل الاوناش الكهربية من داخل المبنى او الاوناش الهيدروليكية من داخل المبنى و توفر الشركة انواع مختلفة من الاوناش من حيث القدرة و الطول لتتناسب مع جميع الظروف</p>
+    </div>
 
 
   
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-  <div class="container" style = "padding-top:50%;">
 
-    <!-- START THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
 
-    <hr class="featurette-divider">
-    <h3 style="text-align:center; color:whitesmoke;">تقوم شركة الاحسان بتقديم خدمة شاملة لفك و تركيب و تغليف و تحميل و نقل محتويات المنازل و المكاتب و الشركات و الفنادق من الباب الى الباب داخل مصر</h3>
-    <h3 style="text-align:center; color:whitesmoke;">فقط اتصل ليصلك مندوبنا لمعاينة المنقولات و تحديد الادوات المطلوبة و الوقت و التكلفة و التعاقد. منذ بدء التعاقد و حتى انتهاء العملية و تمام رضاء العميل يتم تخصيص مسئول عن العملية يقوم بتوجيه طاقم العمل طوال مدة العملية حتى لا يكون التعامل بين العميل و العمال و لكن يكون التعامل مع شخص واحد مسئول</h3>
-    <h3 style="text-align:center; color:whitesmoke;">السعر يحدد من قبل مندوبينا و يعتمد على عدة عوامل مثل حجم و وزن المنقولات و مسافة النقل و الادوات المطلوبة و المواد المستخدمة في التغليف و غيرها. و لكن ثق اننا نسعى ان نقدم لك دائما افضل الاسعار. يمكنك ايضا الاستفادة من خدمة منفردة واحدة او اكثر اذا كنت لا ترغب فى الاستفادة من الخدمة الشاملة لشركتنا</h3>
-    <h3 style="text-align:center; color:whitesmoke;color:rgb(239, 128, 50);"><b>ان شركة الاحسان تهدف الى تيسير عملية النقل بتقديم افضل خدمة باقل التكاليف و فى اسرع وقت</b></h3>
-    <hr class="featurette-divider">
+<div class="container" style = "padding-top:60%;">
 
-
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading"><a href="moving.html">نقل الاثاث</a></h2>
-      </div>
-      <div class="col-md-5">
-       <a href="moving.html"><img class="featurette-image img-responsive center-block" src="images/pics/10.jpg" width = "450" height = "450" alt="شركة الاحسان"></a>
-     </div>
-   </div>
-
-   <hr class="featurette-divider">
-
-   <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading pull-right"><a href="wrapping.html">تغليف الاثاث</a></h2>
-    </div>
-    <div class="col-md-5 col-md-pull-7">
-      <a href="wrapping.html"><img class="featurette-image img-responsive center-block" src="images/pics/8.jpg" width = "450" height = "450" alt="شركة الاحسان"></a>
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading"><a href="assemble.html">فك و تركيب الاثاث</a></h2>
-    </div>
-    <div class="col-md-5">
-      <a href="assemble.html"><img class="featurette-image img-responsive center-block" src="images/pics/9.jpg" width = "450" height = "450" alt="شركة الاحسان"></a>
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading pull-right"><a href="cranes.html">اوناش رفع الاثاث</a></h2>
-    </div>
-    <div class="col-md-5 col-md-pull-7">
-      <a href="cranes.html"><img class="featurette-image img-responsive center-block" src="images/pics/5.jpg" width = "450" height = "450" alt="شركة الاحسان"></a>
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <!-- /END THE FEATURETTES -->
-
-
-  <!-- FOOTER -->
-  <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; جميع الحقوق محفوظة ٢٠١٥ شركة الاحسان لنقل الاثاث &middot;</p>
-  </footer>
-
-</div><!-- /.container -->
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; جميع الحقوق محفوظة ٢٠١٥ شركة الاحسان لنقل الاثاث &middot;</p>
+      </footer>
 </div>
+
 <div style="display:none;">
     <h1>
       شركة نقل</h1>
@@ -383,7 +301,6 @@
 
 
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -393,10 +310,5 @@
     <script src="assets/js/vendor/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-    $('.carousel').carousel({
-      interval: 3000
-   });
-    </script> 
   </body>
   </html>
