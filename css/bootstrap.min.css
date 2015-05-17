@@ -1105,12 +1105,14 @@ textarea {
     line-height: inherit
 }
 a {
-    color: #337ab7;
+    /*color: #337ab7;*/
+    color: #EEEEEE;
     text-decoration: none
 }
 a:focus,
 a:hover {
-    color: #23527c;
+    /*color: #23527c;*/
+    color: #EF8032;
     text-decoration: underline
 }
 a:focus {
@@ -2369,7 +2371,8 @@ th {
 }
 .table>thead>tr>th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd
+    /*border-bottom: 2px solid #ddd*/
+    font-size: large;
 }
 .table>caption+thead>tr:first-child>td,
 .table>caption+thead>tr:first-child>th,
